@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/virendra-khorwal-portfolio/static/css/main.51c5f389.css",
+    "main.js": "/virendra-khorwal-portfolio/static/js/main.52913926.js",
+    "static/js/415.fc063c41.chunk.js": "/virendra-khorwal-portfolio/static/js/415.fc063c41.chunk.js",
+    "static/js/787.2f087df4.chunk.js": "/virendra-khorwal-portfolio/static/js/787.2f087df4.chunk.js",
+    "static/media/main.jpg": "/virendra-khorwal-portfolio/static/media/main.d9930d34e083018a7ed2.jpg",
+    "static/media/logo.svg": "/virendra-khorwal-portfolio/static/media/logo.7473607476993b0e9349a93a47458d9d.svg",
+    "static/media/react-native.svg": "/virendra-khorwal-portfolio/static/media/react-native.55360266b3781dae00a5a77c8916f82d.svg",
+    "static/media/react.svg": "/virendra-khorwal-portfolio/static/media/react.f1484e295933af0e748d6a01b05a8361.svg",
+    "static/media/javascript.svg": "/virendra-khorwal-portfolio/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "index.html": "/virendra-khorwal-portfolio/index.html",
+    "static/media/figma.svg": "/virendra-khorwal-portfolio/static/media/figma.72ff35026c53ba574aef54c980db0e8d.svg",
+    "main.51c5f389.css.map": "/virendra-khorwal-portfolio/static/css/main.51c5f389.css.map",
+    "main.52913926.js.map": "/virendra-khorwal-portfolio/static/js/main.52913926.js.map",
+    "415.fc063c41.chunk.js.map": "/virendra-khorwal-portfolio/static/js/415.fc063c41.chunk.js.map",
+    "787.2f087df4.chunk.js.map": "/virendra-khorwal-portfolio/static/js/787.2f087df4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51c5f389.css",
+    "static/js/main.52913926.js"
+  ]
+}
