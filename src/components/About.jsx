@@ -16,7 +16,7 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="3000"
-        data-aos-offset="600"
+        data-aos-offset="200"
         className="w-3/5 sm:w-full md:w-full lg:w-4/5 shadow-2xl p-10 rounded-md"
       >
         <div className="flex justify-center items-center space-x-1.5 font-medium text-3xl">
