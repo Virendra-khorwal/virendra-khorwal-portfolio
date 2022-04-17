@@ -1,10 +1,22 @@
 import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
 import heroImg from "../images/main.jpg";
 import { IoLogoGithub, IoLogoLinkedin, IoLogoDribbble } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <div className="flex flex-col my-7 h-4/5 my-44 items-center  place-content-center">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="3000"
+      className="flex flex-col my-7 h-4/5 my-44 items-center  place-content-center"
+    >
       <div className="w-52">
         <img
           className="rounded-full ring-2 ring-offset-8 ring-8 ring-offset-transparent"

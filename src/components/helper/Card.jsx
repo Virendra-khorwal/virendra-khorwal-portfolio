@@ -3,7 +3,11 @@ import { IoLogoGithub, IoMdGlobe } from "react-icons/io";
 
 const Card = (props) => {
   return (
-    <div className="bg-sky-50 w-72  p-4 cursor-pointer drop-shadow-md hover:drop-shadow-xl hover:scale-105 transition ease-linear rounded-md">
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="3000"
+      className="bg-sky-50 w-72  p-4 cursor-pointer drop-shadow-md hover:drop-shadow-xl hover:scale-105 transition ease-linear rounded-md"
+    >
       <div>
         <img
           className="w-72 h-72 rounded-md"

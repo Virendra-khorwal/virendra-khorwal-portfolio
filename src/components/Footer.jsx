@@ -1,7 +1,10 @@
 import logo from '../images/logo.svg';
 const Footer = () => {
     return (
-      <div className="grid justify-center justify-items-center p-4 bg-slate-800 space-y-5">
+      <div
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+       className="grid justify-center justify-items-center p-4 bg-slate-800 space-y-5">
         <div className="w-40">
           <img src={logo} alt="logo" />
         </div>

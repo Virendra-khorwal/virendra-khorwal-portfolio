@@ -9,7 +9,7 @@ import ParticleBackground from './components/PartctilceBackground'
 
 function App() {
   return (
-    <div className="App w-full overflow-hidden">
+    <div className="App scroll-smooth w-full overflow-hidden">
 
       <Navbar />
       <ParticleBackground />
