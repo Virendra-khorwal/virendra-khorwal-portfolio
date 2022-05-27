@@ -4,12 +4,19 @@ import { IoLogoGithub, IoLogoLinkedin, IoLogoDribbble } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 const About = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
+  const markdownCard =
+    "![Virendra Khorwal Github stats](https://github-readme-stats.vercel.app/api?username=Virendra-khorwal&show_icons=true&theme=radical)";
+
+  
 
   return (
     <div className="bg-blue-50 p-20 sm:p-4 md:p-4 lg:p-8 xl:p-8 flex justify-center">
@@ -32,7 +39,8 @@ const About = () => {
             />
           </div>
           <div>
-            <p className="sm:text-sm">
+            <ReactMarkdown children={markdownCard} remarkPlugins={[remarkGfm]} />
+            <p className="sm:text-sm mt-5 text-lg">
               I'm a student. Love to design and code. AI/ML enthusiast.
               Currently learning WEB 3.0. Always ready to work on projects.
             </p>

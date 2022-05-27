@@ -1,15 +1,22 @@
-import { Typewriter, useTypewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter} from "react-simple-typewriter";
 import heroImg from "../images/main.jpg";
 import { IoLogoGithub, IoLogoLinkedin, IoLogoDribbble } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
+  const {typingText} = useTypewriter({
+    words: ['Web', 'App', 'UI']
+    // loop:{5}
+    
+  });
 
   return (
     <div
@@ -29,18 +36,16 @@ const Hero = () => {
       </h2>
       <span className="text-2xl text-yellow-300">
         <Typewriter
-          words={[
-            "<Web Developer/>",
-            "<Android Developer/>",
-            "<UI/UX Designer/>",
-          ]}
+          words={["<Web Developer/>", "<App Developer/>", "UI Designer"]}
           loop={0}
           cursor
           cursorStyle="_"
           typeSpeed={70}
           deleteSpeed={50}
           delaySpeed={1000}
+         
         />
+        {typingText}
       </span>
       <div className="flex space-x-2.5 text-base my-2 flex-row text-sky-50">
         <a
